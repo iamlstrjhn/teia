@@ -1,0 +1,25 @@
+.margin-top-default{
+	margin-top: 20px;
+}
+body{
+	background-color: #f7f7f7;
+}
+.chat-me{
+	background-color: #fff;
+	color:#000;
+	margin-bottom: 10px;
+}
+.chat-them{
+	background-color: #2196f3;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.tosend {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:200px;
+   width:100%;
+   background:#999;
+  border-top: 4px solid #333;
+}

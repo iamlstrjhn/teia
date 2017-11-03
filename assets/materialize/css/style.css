@@ -1,0 +1,203 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*This is for the login*/
+
+
+.card-for-login {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 30px 40px 30px 30px;
+	max-width: 400px;
+	height: 100%;
+	box-shadow: none!important;
+}
+
+.btn-custom-login {
+	width: 100% !important;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border: 1px solid #d91fc0;
+	box-shadow: none;
+	color: #d91fc0;
+
+}
+.btn-large:hover{
+	 transition: box-shadow .25s!important;
+}
+
+
+ .login-field input[type=text]:focus {
+     border-bottom: 1px solid #d91fc0!important;
+     box-shadow: 0 1px 0 0 #000!important;
+   }
+
+   .login-field input[type=password]:focus {
+     border-bottom: 1px solid #d91fc0!important;
+     box-shadow: 0 1px 0 0 #000!important;
+   }
+
+
+
+.login-field input {
+	width: 100%!important;
+	padding-left: 6px!important;
+
+}
+
+.login-field {
+	margin: 0!important;
+}
+
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+   
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+   
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.logo-login {
+	margin-top: 30px;
+	padding: 20px 10px;
+}
+
+img.logo-login-img  {
+    max-width: 100px!important;
+    height: auto;
+}
+
+.h5-teia {
+	font-weight: 700;
+	letter-spacing: 40px;
+	padding-left: 40px;
+}
+
+
+
+
+/*This is for the start session*/
+
+.footer-for-session{
+	bottom: 0px;
+	width: 100%;
+	position: fixed;
+	background-image: linear-gradient(60deg, #ff216f, #ff2170, #ce1fd9);
+}
+
+.h5-start-session {
+	padding: 5px 0;
+}
+
+.h2-teia-is-here {
+	padding-top: 30px;
+	font-weight: 500;
+}
+
+
+.white-start-session {
+	color: white;
+}
+
+img.line-border-gradient {
+width: 85%;
+}
+
+
+/*This is for the chat part*/
+
+.row-1 {
+	padding-top: 6px;
+	border-top: 1px solid #d2d2d2;
+	margin-bottom: 0;
+	
+}
+
+.footer-for-chat{
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: white;
+	bottom: 0px;
+	position: fixed;
+}
+
+.send-field {
+	width: 100%!important;
+	color: black;
+}
+
+.send-field input {
+	width: 100%!important;
+	padding-left: 6px!important;
+
+}
+
+.send-field input[type=text]:not(.browser-default) {
+	border-radius: 10px;
+     border: 1px solid black!important;
+}
+
+.send-field input[type=text]:focus {
+	
+     box-shadow: 0 1px 0 0 #000!important;
+   }
+.send-field input[placeholder] {
+	color: black;
+}
+
+
+img.image-send {
+	color:#d91fc0;
+	width: 40px;
+	padding: 22px 8px 0 0;
+}
+
+.card-for-chat {
+	box-shadow: none;
+	border: 1px solid #eee;
+	padding: 0 15px;
+	border-radius: 10px 10px 10px 0;
+	background: #d91fc0;
+}
+
+.card-for-chat-1 {
+	box-shadow: none;
+	border: 1px solid grey;
+	padding: 0 15px;
+	border-radius: 10px 10px 0 10px;
+}
+
+.session-no-class {
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 30%;
+	color: #d91fc0;
+}
+
+img.icon-back {
+	width: 9px;
+	margin-left: 5px;
+}
+
+img.icon-info {
+	width: 20px;
+}
+
+.nav-for-chat {
+	background-color: white!important;
+}
+
+.row-for-chat {
+	margin-bottom: 80px;
+}
